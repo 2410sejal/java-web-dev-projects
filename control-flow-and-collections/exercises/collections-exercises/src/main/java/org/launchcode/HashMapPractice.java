@@ -15,7 +15,7 @@ public class HashMapPractice {
             System.out.print("Student: ");
             newStudent = input.nextLine();
 
-            if (!newStudent.equals("")) {
+            if (!newStudent.isEmpty()) {
                 System.out.print("ID: ");
                 Integer newID = input.nextInt();
 
@@ -23,7 +23,7 @@ public class HashMapPractice {
 
                 input.nextLine();
             }
-        } while(!newStudent.equals(""));
+        } while(!newStudent.isEmpty());
 
         input.close();
 
