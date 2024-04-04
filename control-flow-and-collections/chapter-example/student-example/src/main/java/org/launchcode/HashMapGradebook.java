@@ -22,7 +22,6 @@ public class HashMapGradebook {
                 System.out.print("Grade: ");
                 Double newGrade = input.nextDouble();
                 students.put(newStudent, newGrade);
-
                 // Read in the newline before looping back
                 input.nextLine();
             }
