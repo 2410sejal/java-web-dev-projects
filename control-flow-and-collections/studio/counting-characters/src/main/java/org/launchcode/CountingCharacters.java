@@ -1,7 +1,7 @@
 package org.launchcode;
 
 import java.util.HashMap;
-import java.util.Locale;
+//import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -35,6 +35,6 @@ public class CountingCharacters {
         for(Map.Entry<Character, Integer> character : characters.entrySet()) {
             System.out.println(character.getKey() + ":" + character.getValue());
         }
-        input.close();
+            input.close();
     }
 }
