@@ -44,4 +44,14 @@ public class Teacher {
     public int getYearsTeaching() {
         return yearsTeaching;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", subject='" + subject + '\'' +
+                ", yearsTeaching=" + yearsTeaching +
+                '}';
+    }
 }
