@@ -11,6 +11,13 @@ public class Menu {
         this.lastUpdated = d;
         this.items = i;
     }
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "lastUpdated=" + lastUpdated +
+                ", items=" + items +
+                '}';
+    }
 
     public void setLastUpdated(Date lastUpdated) {
         this.lastUpdated = lastUpdated;
@@ -20,6 +27,8 @@ public class Menu {
         this.items = items;
     }
 
+
+
     public Date getLastUpdated() {
         return lastUpdated;
     }
@@ -27,6 +36,11 @@ public class Menu {
     public ArrayList<MenuItem> getItems() {
         return items;
     }
+//    ArrayList<MenuItem> item = new ArrayList<>();
+//    for (ArrayList<MenuItem> item : items){
+//        System.out.println(item);
+//        System.out.println();
+//    }
 }
 
 
