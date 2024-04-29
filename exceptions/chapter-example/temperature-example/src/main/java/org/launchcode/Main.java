@@ -14,6 +14,6 @@ public class Main {
         input.close();
 
         Temperature currentTemp = new Temperature();
-        currentTemp.setFahrenheit(fahrenheit);
+            currentTemp.setFahrenheit(fahrenheit);
     }
 }
